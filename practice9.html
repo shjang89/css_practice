@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+        }
+        .container{
+            background-color: skyblue;
+            /* display: inline-block; */
+            box-sizing: border-box;
+        }
+        #pos1 {
+            position: absolute;
+            right: -10px;
+        }
+        #pos2{
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #pos3{
+            position: absolute;
+            right: -10px;
+            bottom: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class = "container" id = "pos1">children1</div>
+        <div class = "container" id = "pos2">children2</div>
+        <div class = "container" id = "pos3">children3</div>
+    </div>
+</body>
+</html>
