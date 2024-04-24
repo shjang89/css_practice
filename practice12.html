@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .cat {
+        border: 5px solid black;
+        border-radius: 50px;
+        background-image: url("./images/cat.jpg");
+        background-size: contain;
+        height: 200px;
+        width: 500px;
+    }
+    .bud {
+        border: 5px solid black;
+        border-radius: 50px;
+        background-image: url("./images/bud.jpg");
+        background-size: contain;
+        height: 200px;
+        width: 500px;
+    }
+    .rat {
+        border: 5px solid black;
+        border-radius: 50px;
+        background-image: url("./images/rat.jpg");
+        background-size: contain;
+        height: 200px;
+        width: 500px;
+    }
+    .dog {
+        border: 5px solid black;
+        border-radius: 50px;
+        background-image: url("./images/dog.jpg");
+        background-size: contain;
+        height: 200px;
+        width: 500px;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: orange;
+        height: 600px;
+        width: 1200px;
+        margin: auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    </style>
+</head>
+<body>
+    <div class = "col">
+        <div class = "row">
+            <div class="bud"></div>
+            <div class="dog"></div>
+        </div>
+        <div class = "row">
+            <div class="cat"></div>
+            <div class="rat"></div>
+        </div>
+    </div>
+</body>
+</html>
